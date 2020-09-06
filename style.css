@@ -1,0 +1,407 @@
+body {
+    background: url(https://www.dcine.vn/Content/img/full-bg.jpg) no-repeat;
+    background-size: 100%;
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 1.4rem;
+
+}
+
+/* Header Search */
+.grid{
+    background-color: #272729;
+}
+.header {
+    height: 115px;
+}
+.header__search {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    position: relative;
+    margin: 0 40px;
+
+}
+.form-search{
+    margin-left: 50px;
+    position: relative;
+    
+}
+.form-search__icon {
+    font-size: 1.4rem;
+    color :  #4B4B4B;
+    position: absolute;
+    top: 14px;
+    right: 40px;
+}
+.header__input {
+    border-radius: 5px;
+    padding-left: 12px;
+    background-color: #EAEAEA;
+}
+.logo__header-img {
+    width: 140px;
+}
+
+.header__input {
+    width: 550px;
+    height: 45px;
+
+}
+.header__right{
+    color: #a2a2a2;
+    font-size: 1.6rem;
+    display: flex;
+    align-items: center;
+}
+.header__user, .header__user__log {
+    /* margin: 0 20px; */
+    display: inline-block;
+    color:  #A2A2A2;
+    text-decoration: none;
+    margin-right: 10px;
+}
+.header__user__log{
+    position: relative;
+}
+.header__user .header__user__log {
+   text-decoration: none;
+}
+.header__user__log:hover{
+    cursor: pointer;
+    color: #A2A2A2;
+}
+.header_login-icon {
+    margin: 0 6px 0 24px;
+}
+.header__user__log-sep::after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-left: 1px solid #a2a2a2;
+    height: 16px;
+    right: -7px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.header__user__log-sep-lenguage::after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    border-left: 1px solid #a2a2a2;
+    height: 16px;
+    right: 1px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.header__language {
+    position: absolute;
+    right: 40px;
+}
+.header__language-VN {
+    color: white;
+    font-weight: 400;
+    position: relative;
+    padding-right: 10px;
+}
+.header__language a {
+    text-decoration: none;
+    color: #A2A2A2;
+}
+
+/* header navbar */
+
+.header_navbar-list-calendary {
+    display: block;
+}
+.navbar-wrap {
+    background-color: #8e0404;
+    background-image: linear-gradient(#8e0404, #dd0d17);
+}
+.navbar {
+    height: 55px;
+    padding-left: 0px;
+    
+    margin: 0 40px;
+}
+.header__navbar {
+    list-style: none;
+    padding-left: 0;
+    font-size: 1.8rem;
+    font-weight: 500;
+    
+    color: rgba(255,255,255,0.75);
+
+}
+.header_navbar-list {
+    display: inline-block;
+    padding-right: 110px;
+}
+.header_navbar-list a{
+    text-decoration: none;
+    color: rgba(255,255,255,0.75);
+    text-align: initial;
+    display: block;
+}
+.header_navbar-list-link-padding {
+    margin-right: -100px;
+}
+.header_navbar-header_navbar-list-calendary-hover {
+    height: 108px;
+    width: 250px;
+    background-color: #2F262B;
+    position: absolute;
+    top: 28px;
+    right: 0px;
+    border-top: 1px solid #ff0000;
+    display: none;
+    z-index: 1;
+}
+.header_navbar-list-hover, .header_navbar-cinema-hover, .slider__title-text-pag{
+    position: relative;
+}
+
+.header_navbar-list-hover::after{
+    content: "";
+    display: block;
+    height: 12px;
+    width: 250px;
+    position: absolute;
+    right: 0px;
+}
+
+.header_navbar-list-hover:hover .header_navbar-header_navbar-list-calendary-hover {
+    display: block;
+}
+.header_navbar-cinema-hover:hover .header_navbar-header_navbar-list-cinema-hover {
+    display: block;
+}
+
+.header_navbar-list-calendary-text {
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+}
+.header_navbar-list-calendary-text a:hover, .header_navbar-list-cinema-text  a:hover{
+    color: #ff55a5;
+    -webkit-transition: all .4s ease 0s;
+    transition: all .4s ease 0s;
+}
+.header_navbar-list-link:hover{
+    color: #ffc107;
+}
+
+.header_navbar-list-cinema {
+    position: relative;
+}
+.header_navbar-header_navbar-list-cinema-hover {
+    height: 108px;
+    width: 250px;
+    background-color: #2F262B;
+    position: absolute;
+    top: 28px;
+    right: 0px;
+    border-top: 1px solid #ff0000;
+    display: none;
+    z-index: 1;
+}
+.header_navbar-list-cinema-text {
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+}
+.header_navbar-cinema-hover::after{
+    content: "";
+    display: block;
+    height: 12px;
+    width: 250px;
+    position: absolute;
+    right: 0px;
+}
+.header_navbar-list-cinema-text1, .header_navbar-list-calendary-text1{
+   margin-top: 25px;   
+   margin-bottom: 20px;  
+   margin-left: 35px; 
+}
+.header_navbar-list-cinema-text2, .header_navbar-list-calendary-text2{
+    margin-bottom: 20px;
+    margin-left: 35px; 
+ }
+
+ /* main */
+ .carosel-slide {
+     margin-top: 6px;
+ }
+
+ .booking-cinema {
+    background-color: #5f6064;
+    background-image: linear-gradient(#5f6064, #343539);
+    height: 160px;
+    max-width: 100%;
+    display: flex;
+ }
+ .booking__cinema-img {
+     padding-left: 80px;
+     margin-top: auto;
+     margin-bottom: auto;
+ }
+
+ /* booking-cinema */
+ .booking__cinema-input-wrap {
+    margin-left: 150px;
+    margin-top: 25px;
+ }
+
+ .img-down {
+     height: 24px;
+ }
+ .booking__cinema-input-top, .booking__cinema-input-bot {
+     display: flex;
+     position: relative;
+ }
+ .booking__cinema-input-IP {
+     width: 310px;
+     height: 50px;
+ }
+ .booking__cinema-full, .booking__cinema-full-video, .booking__cinema-input-IP-day, .booking__cinema-input-IP-cinema-time {
+     position: relative;
+    
+ }
+ .img-down-cinema, .img-down-video, .img-down-day,  .img-down-time {
+     position: absolute;
+     top: 10px;
+     right: 25px;
+ }
+ .booking__cinema-full-cinema{
+     margin-bottom: 15px;
+ }
+ .booking__cinema-input-IP {
+    border-radius: 5px;
+    margin-right: 15px;
+    padding-left: 15px;
+    font-size: 1.6rem;
+ }
+
+ /* onclick input */
+ .cinema {
+    width: 310px;
+     height: 150px;
+    background-color: #2F262B;
+    position: absolute;
+    top: 45px;
+    right: 15px;
+    border-top: 1px solid #ff0000;
+    z-index: 1;
+    display: none;
+}
+.cinema-item {
+    height: 50px;
+    width: 100%;
+    text-align: left;
+    line-height: 50px;
+    padding-left: 15px;
+    border-bottom: 1px solid #ff0000;
+
+}
+.cinema-item a{
+    color: white;
+    text-decoration: none;
+    
+}
+.show {
+    display: block;
+}
+/* slider */
+.slider {
+    height: 450px;
+}
+.slider__title {
+    display: flex;
+    font-size: 4.3rem ;
+    color: white;
+    justify-content: space-evenly;
+    text-transform: uppercase;
+    margin: 30px 0;
+    justify-items: center;
+}
+.slider__title-text{
+    display: block;
+
+}
+.slider__title-text-wrap {
+    display: flex;
+    margin: -6px -50px 0 -50px;
+}
+.slider__title-img {
+    width: 400px;
+    height: 30px;
+}
+/* coursel */
+.silider-card {
+    margin: 0 60px;
+}
+.pre-icon,  .next-icon {
+    margin: -110px;
+}
+.pre-icon-event,  .next-icon-event {
+    margin: -90px;
+}
+.booking-btn-slide {
+    width: 100%;
+    background: #df2d1a;
+    color: #fff !important;
+    text-align: center;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 5px;
+    text-transform: uppercase !important;
+    display: block;
+    font-size: 16px;
+    margin-top: 10px;
+   
+}
+.card-cinema-carousel a{
+    text-decoration: none;
+}
+.img-fluid-card {
+    position: relative;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.img-fluid-card:hover{
+    opacity: 0.1;
+    cursor: pointer;
+  }
+  
+.card-cinema-carousel:hover .hover__booking-cinema {
+    opacity: 1;
+    cursor: pointer;
+}
+.hover__booking-cinema {
+    opacity: 0;
+    transition: .5s ease ;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  border: 1px solid white;
+  padding: 10px 70px;
+  cursor: pointer;
+}
+.text {
+    font-size: 1.6rem;
+    color: wheat;
+    display: inline-block;
+    white-space: nowrap;
+}
+.slider-event {
+    height: 520px;
+    background-color: #36393F;
+}
+.slider__title-text-pag2 {
+    margin: 0 40px;
+}
+.img-event {
+    padding: 0 20px;
+}
+.slider-event-container {
+    padding: 10px 0;
+}
